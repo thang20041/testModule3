@@ -18,7 +18,7 @@ ALTER TABLE student
     MODIFY COLUMN dateOfBirth varchar(255);
 INSERT INTO classRoom(className) values ('C0723G1');
 INSERT INTO student (name, email, dateOfBirth, address, phoneNumber, classRoomId)
-VALUES ('duong','duong@gmail.com','09/11/2000','hanoi','0123654792',1);
+VALUES ('thang','thang@gmail.com','2001-04-20','thái bình','0123654792',1);
 select s.*,cR.className from student s join classRoom cR on cR.id = s.classRoomId;
 select *from classRoom;
 update student set name =?,email=?,dateOfBirth=?,address=?,phoneNumber=?,classRoomId=?where id=?;

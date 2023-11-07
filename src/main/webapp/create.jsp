@@ -25,23 +25,23 @@
         <label class="form-label" >Name</label>
         <input name='name' type="text" class="form-control" placeholder="Enter Name" >
     </div>
-    <div class="mb-3">
+    <div class="form-group">
         <label  class="form-label" >Email</label>
         <input name="email" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Enter Email">
     </div>
-    <div class="mb-3">
+    <div class="form-group">
         <label  class="form-label">Date Of Birth</label>
         <input name="dateOfBirth" type="text" class="form-control"  placeholder="Enter date of birth as YYYY-MM-DD">
     </div>
-    <div class="mb-3">
+    <div class="form-group">
         <label  class="form-label">Address</label>
         <input name="address" type="text" class="form-control" placeholder="Enter address">
     </div>
-    <div class="mb-3">
+    <div class="form-group">
         <label  class="form-label">Phone Number</label>
         <input name="phoneNumber" type="text" class="form-control" placeholder="Enter phone number" >
     </div>
-    <div class="mb-3">
+    <div class="form-group">
         <label  class="form-label">Class</label >
         <Select name="classRoomId">
             <c:forEach var="item" items="${clasezList}">
